@@ -4,7 +4,7 @@ from graph_search import bfs, dfs
 
 
 def welcome():
-    print('Hello and Welcome to XXX!, we\'ll help you navigate through the São Paulo chaos!')
+    print('Hello and Welcome to Metro Navigator 3000!, we\'ll help you navigate through the São Paulo chaos!')
 
 
 def get_origin():
@@ -60,7 +60,7 @@ def get_destination():
     return lines[line_number][line_key];
 
 
-def xxx():
+def metro_navigator_3000():
     welcome()
     route = get_route()
     print('\nThe shortest route between the two selected stations is:\n')
@@ -83,8 +83,8 @@ def get_route():
 
 
 def goodbye():
-    print('\nThanks for using XXX! We wish you a safe trip.')
+    print('\nThanks for using Metro Navigator 3000! We wish you a safe trip.')
 
 
 
-xxx()
+metro_navigator_3000()
